@@ -1,0 +1,365 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?wyxywo');
+  src:  url('fonts/icomoon.eot?wyxywo#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?wyxywo') format('truetype'),
+    url('fonts/icomoon.woff?wyxywo') format('woff'),
+    url('fonts/icomoon.svg?wyxywo#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-SMS_Regular:before {
+  content: "\e954";
+  color: #80cef9;
+}
+.icon-filtermob:before {
+  content: "\e953";
+  color: #50535a;
+}
+.icon-editnew:before {
+  content: "\e952";
+  color: #019df4;
+}
+.icon-youtube:before {
+  content: "\e951";
+  color: #fff;
+}
+.icon-pdf-regular:before {
+  content: "\e950";
+  color: #019df4;
+}
+.icon-calendar-regular:before {
+  content: "\e94f";
+  color: #019df4;
+}
+.icon-people:before {
+  content: "\e94d";
+  color: #86888c;
+}
+.icon-mail:before {
+  content: "\e94e";
+  color: #86888c;
+}
+.icon-icon-accionespencil:before {
+  content: "\e944";
+  color: #86888c;
+}
+.icon-outline-start:before {
+  content: "\e925";
+  color: #f28d15;
+}
+.icon-start:before {
+  content: "\e926";
+  color: #f28d15;
+}
+.icon-chevron-up-solid:before {
+  content: "\e927";
+}
+.icon-chevron-down-solid:before {
+  content: "\e928";
+}
+.icon-chevron-right-solid:before {
+  content: "\e929";
+}
+.icon-chevron-left-solid:before {
+  content: "\e92a";
+}
+.icon-youtube1 .path1:before {
+  content: "\e92b";
+  color: rgb(1, 157, 244);
+}
+.icon-youtube1 .path2:before {
+  content: "\e945";
+  margin-left: -1.0419921875em;
+  color: rgb(255, 255, 255);
+}
+.icon-gigas-extras:before {
+  content: "\e92c";
+  color: #019df4;
+}
+.icon-roaming:before {
+  content: "\e92d";
+  color: #019df4;
+}
+.icon-whatsap:before {
+  content: "\e92e";
+  color: #019df4;
+}
+.icon-social-media .path1:before {
+  content: "\e92f";
+  color: rgb(24, 119, 242);
+}
+.icon-social-media .path2:before {
+  content: "\e946";
+  margin-left: -1.0419921875em;
+  color: rgb(255, 255, 255);
+}
+.icon-social-media .path3:before {
+  content: "\e947";
+  margin-left: -1.0419921875em;
+  color: rgb(1, 157, 244);
+}
+.icon-social-media .path4:before {
+  content: "\e948";
+  margin-left: -1.0419921875em;
+  color: rgb(29, 155, 240);
+}
+.icon-social-media .path5:before {
+  content: "\e949";
+  margin-left: -1.0419921875em;
+  color: rgb(255, 255, 255);
+}
+.icon-social-media .path6:before {
+  content: "\e94a";
+  margin-left: -1.0419921875em;
+  color: rgb(1, 157, 244);
+}
+.icon-social-media .path7:before {
+  content: "\e94b";
+  margin-left: -1.0419921875em;
+  color: rgb(1, 157, 244);
+}
+.icon-social-media .path8:before {
+  content: "\e94c";
+  margin-left: -1.0419921875em;
+  color: rgb(1, 157, 244);
+}
+.icon-minutos-ilimitados:before {
+  content: "\e930";
+  color: #019df4;
+}
+.icon-close:before {
+  content: "\e931";
+  color: #86888c;
+}
+.icon-circle-check:before {
+  content: "\e932";
+}
+.icon-alert:before {
+  content: "\e933";
+  color: #019df4;
+}
+.icon-p-o-s:before {
+  content: "\e934";
+  color: #50535a;
+}
+.icon-credit-card:before {
+  content: "\e935";
+  color: #50535a;
+}
+.icon-arrow-buttom-select:before {
+  content: "\e936";
+  color: #86888c;
+}
+.icon-payment:before {
+  content: "\e937";
+  color: #50535a;
+}
+.icon-check-blue:before {
+  content: "\e938";
+  color: #019df4;
+}
+.icon-dimensions:before {
+  content: "\e939";
+  color: #019df4;
+}
+.icon-battery:before {
+  content: "\e93a";
+  color: #019df4;
+}
+.icon-ram:before {
+  content: "\e93b";
+  color: #019df4;
+}
+.icon-processor:before {
+  content: "\e93c";
+  color: #019df4;
+}
+.icon-rear-camera:before {
+  content: "\e93d";
+  color: #019df4;
+}
+.icon-frontal-camera:before {
+  content: "\e93e";
+  color: #019df4;
+}
+.icon-free-shipping:before {
+  content: "\e93f";
+  color: #50535a;
+}
+.icon-celphone-number:before {
+  content: "\e942";
+  color: #86888c;
+}
+.icon-arrow-dni:before {
+  content: "\e941";
+  color: #86888c;
+}
+.icon-charger:before {
+  content: "\e940";
+  color: #b6b7b7;
+}
+.icon-headphones:before {
+  content: "\e943";
+  color: #b6b7b7;
+}
+.icon-editar:before {
+  content: "\e924";
+  color: #019df4;
+}
+.icon-ordenar:before {
+  content: "\e923";
+  color: #50535a;
+}
+.icon-bx-check:before {
+  content: "\e91e";
+}
+.icon-Cuidado_Heavy:before {
+  content: "\e900";
+  color: #e63780;
+}
+.icon-back-row:before {
+  content: "\e91d";
+  color: #50535a;
+}
+.icon-chevron-down-light_1:before {
+  content: "\e91f";
+  color: #019df4;
+}
+.icon-Cuidado_Regular-:before {
+  content: "\e920";
+}
+.icon-Vector:before {
+  content: "\e921";
+  color: #019df4;
+}
+.icon-ico-movistar:before {
+  content: "\e91c";
+  color: #019df4;
+}
+.icon-notificacion:before {
+  content: "\e915";
+  color: #f28d15;
+}
+.icon-telefonica:before {
+  content: "\e916";
+  color: #f5f5f5;
+}
+.icon-felcha-der:before {
+  content: "\e917";
+  color: #019df4;
+}
+.icon-flecha-izq:before {
+  content: "\e918";
+  color: #019df4;
+}
+.icon-menu:before {
+  content: "\e919";
+  color: #019df4;
+}
+.icon-cerrar:before {
+  content: "\e91a";
+  color: #019df4;
+}
+.icon-buscar:before {
+  content: "\e91b";
+}
+.icon-arrowdown:before {
+  content: "\e914";
+  color: #019af0;
+}
+.icon-ico-alcatel:before {
+  content: "\e901";
+  color: #50535a;
+}
+.icon-ico-android-ios:before {
+  content: "\e902";
+  color: #019df4;
+}
+.icon-ico-arrow-bot:before {
+  content: "\e903";
+}
+.icon-ico-arrow-top:before {
+  content: "\e904";
+}
+.icon-ico-compra-segura:before {
+  content: "\e905";
+  color: #019df4;
+}
+.icon-ico-envio-gratis:before {
+  content: "\e906";
+  color: #019df4;
+}
+.icon-ico-exclusivo-onlinel:before {
+  content: "\e907";
+  color: #019df4;
+}
+.icon-ico-facebook-footer:before {
+  content: "\e908";
+  color: #fff;
+}
+.icon-ico-huawei:before {
+  content: "\e909";
+  color: #50535a;
+}
+.icon-ico-instagram-footer:before {
+  content: "\e90a";
+  color: #fff;
+}
+.icon-ico-motorola:before {
+  content: "\e90b";
+  color: #50535a;
+}
+.icon-ico-movil-menu:before {
+  content: "\e90c";
+  color: #50535a;
+}
+.icon-ico-nokia:before {
+  content: "\e90d";
+  color: #50535a;
+}
+.icon-ico-porcentaje:before {
+  content: "\e90e";
+  color: #019df4;
+}
+.icon-ico-rendimiento:before {
+  content: "\e90f";
+  color: #019df4;
+}
+.icon-ico-samsung:before {
+  content: "\e910";
+  color: #50535a;
+}
+.icon-ico-tracking:before {
+  content: "\e911";
+  color: #019df4;
+}
+.icon-ico-twitter-footer:before {
+  content: "\e912";
+  color: #fff;
+}
+.icon-ico-wsp-footer:before {
+  content: "\e913";
+  color: #fff;
+}
+.icon-ico-xiaomi:before {
+  content: "\e922";
+  color: #50535a;
+}

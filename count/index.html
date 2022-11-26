@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<title>Document</title>
+</head>
+<style>
+    .disabled {
+        color: #80CEF9;
+    }
+
+    .enabled {
+        color: #019DF4;
+    }
+</style>
+
+<body>
+    <div class="container-count">
+        <span id="count-icon"></span> <a id="count-text" class="disabled" onclick="timedCount()">Envíame un nuevo código
+            SMS</a> <span id="count-min"></span>
+    </div>
+
+    <script type="text/javascript">
+        let c = 5;
+        let minutes = 0;
+        let reenviarClave = false;
+        const count_icon=document.getElementById('count-icon');
+        const count_text=document.getElementById('count-text');
+        const count_min=document.getElementById('count-min');
+        timedCount();
+        count_text.onclick = resetTime;
+        function resetTime() {
+            c = 5;
+            minutes = 0;
+            reenviarClave = false;
+            timedCount();
+        }
+        function timedCount() {
+            if (minutes >= 0) {
+                count_min.innerHTML = `${minutes}:${c}`;
+                setTimeout("timedCount()", 900);
+            } else {
+                if (!reenviarClave) {
+                    reenviarClave = true;
+                    c = 5;
+                    minutes = 0;
+                    count_text.innerHTML = 'Reenviar clave';
+                    count_icon.classList.add("icon-SMS_Regular")
+                    setTimeout("timedCount()", 900);
+                } else {
+                    count_min.innerHTML = `${0}:${0}`;
+                    count_text.classList.add("enabled")
+                    count_icon.classList.remove("disabled")
+                }
+            }
+            c = c - 1;
+            if (c % 60 == 0) {
+                minutes -= 1;
+                c = 60;
+            }
+
+
+        }
+
+    </script>
+</body>
+
+</html>
